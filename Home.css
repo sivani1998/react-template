@@ -1,0 +1,262 @@
+.nav-item  img {
+  height:40px;
+  width: 40px;
+  justify-content: flex-start;
+}
+.nav-items {
+  margin-left: 400px;
+    list-style: none;
+    display: flex;
+   column-gap: 40px;
+   font-size: 14px;
+  justify-content: flex-end;
+ font-style: normal;
+ font-weight: 500;
+color: rgb(49, 47, 47);
+
+}
+.nav-items li:hover {
+    color: blue;
+}
+.nav-item {
+    list-style: none;
+    display: flex;
+   column-gap: 40px;
+   font-size: 20px;
+  
+ font-style: oblique;
+ font-weight: inherit;
+ color: lightsalmon;
+
+}
+.logo {
+  background-image: url("../../assets/hyd0.jpeg");
+height: 100%;
+width: 100%;
+background-size: cover;
+  background-repeat: no-repeat;
+  text-decoration: white;
+  color: rgb(201, 204, 207);
+  
+}
+.login .icon{
+  justify-content: flex-end;
+}
+.login {
+  color:blue;
+  list-style: none;
+  justify-content: flex-end;
+}
+.login:hover{
+  color: rgb(10, 6, 19);
+}
+/**home img**/
+.container{
+width: 100%;
+
+
+}
+.container .img1{
+  width: 100%;
+  height: 600px;
+  background-image: url("../../assets/bghyd6.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+.inner-container {
+  
+  margin-left: 300px;
+  align-items: center;
+ height: 50%;
+ width: 50%;
+  background-color: #726c6c;
+  border: 1px solid black;
+  opacity: 0.6;
+  
+}
+.inner-container p {
+  color: blue;
+  justify-content: center;
+}
+.work-container {
+  height: 500px;
+  width: auto;
+  justify-content: center;
+  margin-left: 100px;
+
+}
+.work-container .sub {
+  margin: 10px;
+  padding: 20px;
+  right: 50%;
+  transform: skew(210deg,0);
+  background-color:blue;
+ height: 100px;
+ width:auto;
+}
+.row {
+  column-gap: 20px;
+}
+@media screen and (min-width: 480px){
+  .work-container .sub{
+    margin: 20px;
+    width: 100%;
+    text-replace: skew(0,20deg);
+  }
+  .work-container .sub {
+    margin: 20px;
+    padding: 20px;
+    right: 50%;
+    transform: skew(210deg,0);
+    background-color:rgb(124, 124, 196);
+   height: 150px;
+   width: 200px;
+  }
+}
+.work-container .sub p{
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+ .container-one {
+  padding-left: 100px;
+   margin: 50px;
+ /** background-image: url(../../assets/rhyd5.jpeg);**/
+ height: 200px;
+ width: 450px;
+  object-fit: contain;
+}
+.container-one img{
+  height: fit-content;
+  width: 100%;
+  }
+.container-one p{
+  font-size: 12px;
+}
+/**service**/
+.service-list  {
+  padding-left: 70px;
+  padding-bottom: 60px;
+  width: 100%;
+  border-color: cornflowerblue;
+  list-style: none;
+   font-size: 16px;
+font-weight: bold;
+}
+.service-list .list .one {
+padding-top: 80px;
+padding-bottom: 80px;
+padding-left: 20px;
+padding-right: 20px;
+margin-left: 30px;
+  border-style: solid;
+  border-color: turquoise;
+}
+/***footer**/
+footer {
+  background: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 400px;
+  
+}
+.col-6{
+  margin-right: 50px;
+}
+footer h3 {
+  color: #127CBD;
+  font-size: 20px;
+}
+footer p {
+  font-size: 14px;
+}
+.contact-section {
+ 
+  border-left: 1px solid red;
+  height: 100%;
+  padding-left: 80px;
+  text-align: center;
+}
+.social-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.social-links li {
+  padding: 10px;
+}
+.social-links li a {
+  color: #000;
+}
+/**customer voice**/
+.imgheader img{
+  height: 80px;
+  width: 80px;
+border-radius: 50%;
+}
+.customer-container{
+ margin-left: 350px;
+ margin-right: 350px;
+ margin-top: 30px;
+ margin-bottom: 100px;
+
+  display: block;
+  border-style: hidden;
+  box-shadow: lightslategrey;
+}
+.imgheader h2{
+  font-size: 12px;
+}
+.imgheader h3{
+  font-size: 10px;
+}
+.imgheader .name {
+  margin-top: 10px;
+}
+.customer-container .passage {
+  display: block;
+  font-size: 14px;
+
+}
+.customer {
+  padding-top: 60px;
+display: block;
+border-bottom: black;
+background-color: white;
+}
+/**normal**/
+.container .four {
+  width: 100%;
+  height: 300px;
+}
+.container .one {
+  width: 200px;
+}
+.container .one  h6{
+font-size: 25px;
+color: rgb(98, 98, 153);
+font-weight: bold;
+}
+.container .one  p{
+  padding: 0px;
+  font-size: 16px;
+}
+.container .two {
+  width: 400px;
+  height:auto;
+  padding: 30px;
+  background-color: cornflowerblue;
+}
+.container .two p{
+  color: #fff;
+  font-size: 14px;
+}
+.container .three p {
+  color: #127CBD;
+  font-weight: 100px;
+  border-radius: 10px;
+}
